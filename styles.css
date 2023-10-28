@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Oxygen', sans-serif;
+    padding: 0;
 }
 
 
@@ -98,9 +99,79 @@ body {
 }
 
 .carousel-card {
-    padding: 10%;
+    padding: 5%;
 }
 
 .about-card {
-    padding: 7% 10% 10%
+    padding: 7% 5% 5%;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-title {
+    font-size: 1rem;
+}
+.footer-message {
+    font-size: 0.6rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-icon {
+    width: 15px;
+    margin: 0 7.5px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.testimonial-title {
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonial-card {
+    border: 1px transparent;
+    margin: 0 3%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.testimonials-container {
+    padding: 0 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.testmon-1:hover {
+    content: url("images/testmon-1.png");
+    cursor: pointer;
+    width: 17%;
+}
+
+.testmon-2:hover {
+    content: url("images/testmon-2.png");
+    cursor: pointer;
+    width: 17%;
+}
+.testmon-3:hover {
+    content: url("images/testmon-3.png");
+    cursor: pointer;
+    width: 17%;
+}
+.testmon-4:hover {
+    content: url("images/testmon-4.png");
+    cursor: pointer;
+    width: 17%;
 }
